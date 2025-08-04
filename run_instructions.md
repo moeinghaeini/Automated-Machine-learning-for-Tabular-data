@@ -31,7 +31,7 @@ python run.py --task exam_dataset --seed 42 --output-path data/exam_dataset/pred
 **Expected Output:**
 - File: `data/exam_dataset/predictions.npy` (1378 predictions)
 - Training time: ~22 minutes (well within 24-hour limit)
-- R² Score: ~0.9275 (above baseline of 0.9290)
+- R² Score: ~0.9275 (slightly below baseline of 0.9290)
 
 **Configuration Details:**
 - **Trials**: 150 optimization trials
