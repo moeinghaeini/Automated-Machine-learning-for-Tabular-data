@@ -25,7 +25,7 @@ This document provides step-by-step instructions to reproduce the test predictio
 
 **Command to run the complete AutoML pipeline:**
 ```bash
-python run.py --task exam_dataset --seed 42 --output-path data/exam_dataset/predictions.npy --config exam
+python run.py --task exam_dataset --seed 42 --save-model --output-path data/exam_dataset/predictions.npy --config exam
 ```
 
 **Expected Output:**
