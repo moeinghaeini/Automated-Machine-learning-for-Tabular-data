@@ -1,0 +1,295 @@
+{
+  "task": "brazilian_houses",
+  "config": "balanced",
+  "total_folds": 10,
+  "successful_folds": 10,
+  "failed_folds": 0,
+  "r2_mean": 0.995308226145635,
+  "r2_std": 0.0062278480999193395,
+  "r2_min": 0.9795643948818819,
+  "r2_max": 0.9993639236376755,
+  "training_time_mean": 147.1606933116913,
+  "training_time_total": 1471.6069331169128,
+  "fold_results": [
+    {
+      "task": "brazilian_houses",
+      "fold": 1,
+      "config": "balanced",
+      "training_time": 98.59999895095825,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9908588167743192,
+        0.9906343087536706,
+        0.989971907746819,
+        0.9897180199173553,
+        0.9893668644529757
+      ],
+      "dataset_shape": [
+        4329,
+        11
+      ],
+      "test_shape": [
+        482,
+        11
+      ],
+      "r2_score": 0.9987289545835862,
+      "mse": 0.0007959605571144845,
+      "rmse": 0.028212772942667025,
+      "test_predictions_shape": [
+        482
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 2,
+      "config": "balanced",
+      "training_time": 184.1175410747528,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9952308010881559,
+        0.9950029839919188,
+        0.9946516084704701,
+        0.9945724930718061,
+        0.9945311021442798
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9986800539746518,
+      "mse": 0.0008216157429687494,
+      "rmse": 0.02866384033880927,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 3,
+      "config": "balanced",
+      "training_time": 157.61052632331848,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.995437129120764,
+        0.9952089854093973,
+        0.9951931908619948,
+        0.9951644548112007,
+        0.9949435304771331
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.999088974481152,
+      "mse": 0.0005665112227722684,
+      "rmse": 0.023801496229696746,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 4,
+      "config": "balanced",
+      "training_time": 128.28420114517212,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9953207920744795,
+        0.9951827208611794,
+        0.9950892340660488,
+        0.9948776415289997,
+        0.9948391454178186
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9989093886484608,
+      "mse": 0.0006663353023371607,
+      "rmse": 0.025813471334502083,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 5,
+      "config": "balanced",
+      "training_time": 126.53194308280945,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9973322540133663,
+        0.9969649880907074,
+        0.9968337818062517,
+        0.9967992980039545,
+        0.9967396795527824
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9795643948818819,
+      "mse": 0.014031953703713641,
+      "rmse": 0.11845654774521179,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 6,
+      "config": "balanced",
+      "training_time": 98.01621580123901,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9902999064436269,
+        0.9898380707577902,
+        0.9898125893020863,
+        0.9897800862284377,
+        0.989776256063149
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9889638216143637,
+      "mse": 0.007611679197615454,
+      "rmse": 0.087244937948373,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 7,
+      "config": "balanced",
+      "training_time": 180.07316827774048,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9954311199394974,
+        0.9951950674242867,
+        0.9951419269216716,
+        0.9949973925015565,
+        0.9949656813370407
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9989539899194675,
+      "mse": 0.0005999300669257282,
+      "rmse": 0.024493469883332748,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 8,
+      "config": "balanced",
+      "training_time": 116.48753380775452,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9949062434217651,
+        0.994901517640205,
+        0.9948632342884054,
+        0.9948476472461565,
+        0.994834166746584
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9993639236376755,
+      "mse": 0.0004202070246512601,
+      "rmse": 0.020498951793964007,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 9,
+      "config": "balanced",
+      "training_time": 150.738831281662,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9967749187839955,
+        0.9964158601684231,
+        0.9962435781569055,
+        0.9961740003972072,
+        0.9959797519295324
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9922802627830762,
+      "mse": 0.004744739441999956,
+      "rmse": 0.06888206908913201,
+      "test_predictions_shape": [
+        481
+      ]
+    },
+    {
+      "task": "brazilian_houses",
+      "fold": 10,
+      "config": "balanced",
+      "training_time": 231.14697337150574,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9954634443731809,
+        0.9953993682907006,
+        0.9952357340979899,
+        0.9951761037806308,
+        0.9950674960623751
+      ],
+      "dataset_shape": [
+        4330,
+        11
+      ],
+      "test_shape": [
+        481,
+        11
+      ],
+      "r2_score": 0.9985484969320352,
+      "mse": 0.0009669404753801282,
+      "rmse": 0.03109566650483839,
+      "test_predictions_shape": [
+        481
+      ]
+    }
+  ]
+}

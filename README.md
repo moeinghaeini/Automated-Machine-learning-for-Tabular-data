@@ -208,10 +208,10 @@ Upload a file `team_info.txt` with the list of matriculation IDs of team members
 
 ### Submission checklist:
 - [ ] Poster
-- [ ] Test predictions
-- [ ] Reproducibility instructions
-- [ ] Team info
-- [x] *Example to denote task being done*
+- [x] Test predictions
+- [x] Reproducibility instructions
+- [x] Team info
+- [x] Complete codebase
 <!-- This is a comment. -->
 
 

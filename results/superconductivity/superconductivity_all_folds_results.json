@@ -1,0 +1,295 @@
+{
+  "task": "superconductivity",
+  "config": "balanced",
+  "total_folds": 10,
+  "successful_folds": 10,
+  "failed_folds": 0,
+  "r2_mean": 0.9112095760030874,
+  "r2_std": 0.008072369330832132,
+  "r2_min": 0.8932470677427521,
+  "r2_max": 0.9219610595671578,
+  "training_time_mean": 1333.8371677875518,
+  "training_time_total": 13338.371677875519,
+  "fold_results": [
+    {
+      "task": "superconductivity",
+      "fold": 1,
+      "config": "balanced",
+      "training_time": 1213.74591422081,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9041367361639085,
+        0.9035476042094631,
+        0.9033438328068033,
+        0.9031897079199599,
+        0.9031508747836325
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.907317582611929,
+      "mse": 105.3718691532185,
+      "rmse": 10.26508008508548,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 2,
+      "config": "balanced",
+      "training_time": 1583.4391281604767,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9062185261138721,
+        0.9057560002646573,
+        0.9056115036257161,
+        0.905408144350039,
+        0.905368385101174
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.90656552609773,
+      "mse": 107.52000084823273,
+      "rmse": 10.369185158354187,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 3,
+      "config": "balanced",
+      "training_time": 1081.3576848506927,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9040826572642642,
+        0.9038246107565057,
+        0.9036133067595469,
+        0.903589732262831,
+        0.9035520626778467
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.9170324692171903,
+      "mse": 94.13832370950146,
+      "rmse": 9.702490593115845,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 4,
+      "config": "balanced",
+      "training_time": 883.8816330432892,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9048712152092333,
+        0.904420296774078,
+        0.9039209062055453,
+        0.9036743203304756,
+        0.9034544645485261
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.9101988471507325,
+      "mse": 106.07232194972744,
+      "rmse": 10.299141806467539,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 5,
+      "config": "balanced",
+      "training_time": 1458.1931676864624,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9067779713099628,
+        0.9064122043996392,
+        0.9062451553712565,
+        0.9061211170242818,
+        0.9058603272168474
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.8932470677427521,
+      "mse": 119.48548378561834,
+      "rmse": 10.930941578181558,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 6,
+      "config": "balanced",
+      "training_time": 1334.3000741004944,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9059140312869524,
+        0.905065149205695,
+        0.9048578318476919,
+        0.9047076653178646,
+        0.9044558852336154
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.9068540087405668,
+      "mse": 103.54868861751399,
+      "rmse": 10.175887608337367,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 7,
+      "config": "balanced",
+      "training_time": 1280.4076862335205,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9049776628861774,
+        0.9049316214194182,
+        0.9044522911676548,
+        0.9044346985352659,
+        0.9042646930910212
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.9182806062263201,
+      "mse": 102.20474758361564,
+      "rmse": 10.109636372472337,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 8,
+      "config": "balanced",
+      "training_time": 1978.930588722229,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9015735526921249,
+        0.9013960569094032,
+        0.9013265633836618,
+        0.9011001922384407,
+        0.901060118608547
+      ],
+      "dataset_shape": [
+        8611,
+        81
+      ],
+      "test_shape": [
+        957,
+        81
+      ],
+      "r2_score": 0.9219610595671578,
+      "mse": 88.42802951755685,
+      "rmse": 9.403617895127217,
+      "test_predictions_shape": [
+        957
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 9,
+      "config": "balanced",
+      "training_time": 1292.1854028701782,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9074751358052969,
+        0.9068093282581614,
+        0.9067661413771816,
+        0.9066235249859581,
+        0.906580965583397
+      ],
+      "dataset_shape": [
+        8612,
+        81
+      ],
+      "test_shape": [
+        956,
+        81
+      ],
+      "r2_score": 0.9109038203183975,
+      "mse": 106.47483141663857,
+      "rmse": 10.31866422637342,
+      "test_predictions_shape": [
+        956
+      ]
+    },
+    {
+      "task": "superconductivity",
+      "fold": 10,
+      "config": "balanced",
+      "training_time": 1231.9303979873657,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9050514634292341,
+        0.9047811665443923,
+        0.9044048877366532,
+        0.9043432565363334,
+        0.9042991171174852
+      ],
+      "dataset_shape": [
+        8612,
+        81
+      ],
+      "test_shape": [
+        956,
+        81
+      ],
+      "r2_score": 0.9197347723580971,
+      "mse": 93.69212272432775,
+      "rmse": 9.679469134427142,
+      "test_predictions_shape": [
+        956
+      ]
+    }
+  ]
+}

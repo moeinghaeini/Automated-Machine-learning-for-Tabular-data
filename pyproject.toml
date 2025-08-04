@@ -3,11 +3,24 @@ name = "automl"
 license = { file = "LICENSE" }
 # Feel free to change from here
 version = "0.1.0"
-dependencies = ["scikit-learn", "openml", "pandas", "numpy<2.0", "IPython"]
+dependencies = [
+    "scikit-learn>=1.3.0",
+    "openml",
+    "pandas>=1.5.0",
+    "numpy<2.0",
+    "IPython",
+    "xgboost>=1.7.0",
+    "lightgbm>=4.0.0",
+    "catboost>=1.2.0",
+    "optuna>=3.0.0",
+    "scipy>=1.10.0",
+    "joblib>=1.3.0",
+    "tqdm>=4.64.0"
+]
 requires-python = ">=3.10"
 authors = [{ name = "user", email = "user@user.com" }]
 readme = "README.md"
-description = "AutoML SS25 Exam - Tabular"
+description = "Advanced AutoML SS25 Exam - Tabular with Multi-Fidelity Optimization and Meta-Learning"
 classifiers = [
   'Intended Audience :: Science/Research',
   'Intended Audience :: Developers',

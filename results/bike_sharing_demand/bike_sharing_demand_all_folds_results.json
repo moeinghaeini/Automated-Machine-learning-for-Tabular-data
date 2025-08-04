@@ -1,0 +1,295 @@
+{
+  "task": "bike_sharing_demand",
+  "config": "balanced",
+  "total_folds": 10,
+  "successful_folds": 10,
+  "failed_folds": 0,
+  "r2_mean": 0.9375407615476465,
+  "r2_std": 0.010861394259344116,
+  "r2_min": 0.9192086650961482,
+  "r2_max": 0.9502334082122696,
+  "training_time_mean": 435.3978319168091,
+  "training_time_total": 4353.978319168091,
+  "fold_results": [
+    {
+      "task": "bike_sharing_demand",
+      "fold": 1,
+      "config": "balanced",
+      "training_time": 266.76573300361633,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.931318712234497,
+        0.9311594009399414,
+        0.9309225916862488,
+        0.9306975126266479,
+        0.9305139541625976
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9192086650961482,
+      "mse": 2598.71791784583,
+      "rmse": 50.97762173587377,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 2,
+      "config": "balanced",
+      "training_time": 373.1857032775879,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9368831715960152,
+        0.9362028299548129,
+        0.9361404866843689,
+        0.9361306198802591,
+        0.936082669582485
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9423233581025234,
+      "mse": 1644.7024947029647,
+      "rmse": 40.5549318172644,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 3,
+      "config": "balanced",
+      "training_time": 239.79778289794922,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9353592025082198,
+        0.9353578630869348,
+        0.9352001355049048,
+        0.9346477974220202,
+        0.9344616793051334
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.919442901073457,
+      "mse": 2539.2204586850676,
+      "rmse": 50.39067829157559,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 4,
+      "config": "balanced",
+      "training_time": 476.97892904281616,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9297110463091091,
+        0.9285752257997121,
+        0.9284432324469041,
+        0.9281174110598588,
+        0.9275123194069836
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9502334082122696,
+      "mse": 1703.634597348046,
+      "rmse": 41.275108689718145,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 5,
+      "config": "balanced",
+      "training_time": 417.9458849430084,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9366543552708115,
+        0.936367195920376,
+        0.936156514823069,
+        0.9361459742463516,
+        0.9359556412280725
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9365395562454802,
+      "mse": 2084.2542609422885,
+      "rmse": 45.653633600648796,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 6,
+      "config": "balanced",
+      "training_time": 402.06669211387634,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9350516368981413,
+        0.9344824383539972,
+        0.9343685673542899,
+        0.9334929803784929,
+        0.9334675034560181
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9495537930986844,
+      "mse": 1827.8972434902705,
+      "rmse": 42.75391494928003,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 7,
+      "config": "balanced",
+      "training_time": 628.1580820083618,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9297632228257424,
+        0.9296733871769787,
+        0.9293973586644917,
+        0.9293773476802105,
+        0.9290849343668397
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9467757585824633,
+      "mse": 1820.3035956114386,
+      "rmse": 42.665016062477214,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 8,
+      "config": "balanced",
+      "training_time": 539.1506490707397,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.931107926647635,
+        0.9311032017899707,
+        0.9308481617348379,
+        0.9304575797295591,
+        0.9304377667684948
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9304155754696204,
+      "mse": 2215.457476404804,
+      "rmse": 47.06864642630807,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 9,
+      "config": "balanced",
+      "training_time": 295.86220479011536,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9340257778550143,
+        0.9339148225067586,
+        0.9336488479123783,
+        0.933219189053708,
+        0.9318393878971174
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9445647839820417,
+      "mse": 1951.9161337825606,
+      "rmse": 44.1804949472339,
+      "test_predictions_shape": [
+        782
+      ]
+    },
+    {
+      "task": "bike_sharing_demand",
+      "fold": 10,
+      "config": "balanced",
+      "training_time": 714.0666580200195,
+      "ensemble_size": 5,
+      "best_model_scores": [
+        0.9328566780944751,
+        0.9326576828956604,
+        0.9324286937713623,
+        0.9324214251348147,
+        0.9321251666903889
+      ],
+      "dataset_shape": [
+        7038,
+        11
+      ],
+      "test_shape": [
+        782,
+        11
+      ],
+      "r2_score": 0.9363498156137768,
+      "mse": 1952.6509935731224,
+      "rmse": 44.18881072820497,
+      "test_predictions_shape": [
+        782
+      ]
+    }
+  ]
+}
