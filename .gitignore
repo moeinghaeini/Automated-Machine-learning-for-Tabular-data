@@ -9,6 +9,13 @@ env/
 venv/
 automl-tabular-env
 
+# Model files (allow directory structure but ignore actual model files)
+# Note: automl_model.pkl is included for demonstration purposes
+models/*.joblib
+models/*.h5
+models/*.pth
+models/*.pt
+
 # Parquet and data files
 # allow predictions.npy to be uploaded and allow eval results to be saved here
 *.parquet

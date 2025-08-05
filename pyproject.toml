@@ -4,18 +4,21 @@ license = { file = "LICENSE" }
 # Feel free to change from here
 version = "0.1.0"
 dependencies = [
-    "scikit-learn>=1.3.0",
+    "scikit-learn",
     "openml",
-    "pandas>=1.5.0",
-    "numpy<2.0",
+    "pandas",
+    "numpy",
     "IPython",
-    "xgboost>=1.7.0",
-    "lightgbm>=4.0.0",
-    "catboost>=1.2.0",
-    "optuna>=3.0.0",
-    "scipy>=1.10.0",
-    "joblib>=1.3.0",
-    "tqdm>=4.64.0"
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "optuna",
+    "scipy",
+    "joblib",
+    "tqdm",
+    "requests",
+    "pyarrow",
+    "fastparquet"
 ]
 requires-python = ">=3.10"
 authors = [{ name = "user", email = "user@user.com" }]
@@ -33,3 +36,16 @@ classifiers = [
   'Operating System :: MacOS',
   'Programming Language :: Python :: 3',
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+    "mypy",
+    "pre-commit"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
